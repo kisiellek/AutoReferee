@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+.venv/
+env/
+.venv*/
+pip-log.txt
+*.egg-info/
+
+# IDE / system
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Output
+out/
+sample_videos/
+*.mp4
+*.avi
+*.csv
