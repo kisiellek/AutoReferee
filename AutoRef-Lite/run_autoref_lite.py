@@ -19,7 +19,7 @@ def parse_args():
     p.add_argument("--out", default="out/overlay.mp4")
     p.add_argument("--csv", default="out/events.csv")
     p.add_argument("--model", default="yolov8s.pt")
-    p.add_argument("--conf", type=float, default=0.05)
+    p.add_argument("--conf", type=float, default=0.75)
     p.add_argument("--smooth", type=int, default=3, help="okno średniej kroczącej")
     p.add_argument("--cooldown", type=int, default=20, help="klatki blokady po golu")
     return p.parse_args()
